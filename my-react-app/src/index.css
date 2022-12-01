@@ -12,6 +12,42 @@ body{
     line-height: 1.6;
 }
 
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 40px;
+}
+
+.card.reverse{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+    padding: 40px 50px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.card h2{
+    font-size: 22px;
+    font-weight: 600;
+    align-items: center; 
+}
+
 [type='radio'] :checked ~ label{
     background: #ff6a95;
     color: #fff;

@@ -10,12 +10,12 @@ import Card from './Components/shared/Card';
 
 function App() {
     const [feedback, setFeedback] = useState(FeedbackData)
+
    return (
        <>
-           <Header text="Hello World"/>
+           <Header/>
            <div className="container">
-               <h1>My App</h1>
-               <feedBackItem/>
+               <FeedbackList feedback={ feedback} />
         </div>
        </>     
     )
